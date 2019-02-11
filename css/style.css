@@ -1,0 +1,320 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  /* background-color: #1d252c; */
+}
+
+.header {
+  background-color: #1b2127;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 10px #000;
+  position: relative;
+  z-index: 1;
+}
+
+.link {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+
+li {
+  height: inherit;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.logo img {
+  height: 60px;
+  width: 70px;
+}
+
+.logo p {
+  font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+  font-family: 'Courgette', cursive;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin: 0px;
+}
+
+h1 strong {
+  color: #7cfc00;
+}
+
+h2 {
+  color: #7cfc00;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.hero {
+  /* background-image: url('../images/curso/hero.jpg'); */
+  /* background-size: 500px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  background-color: #1b2127;
+}
+
+.hero img {
+  height: inherit;
+  width: 700px;
+  object-fit: cover;
+}
+
+.divider {
+  margin-right: -50px;
+  border-top: 300px solid #1b2127;
+  border-right: 50px solid transparent;
+  position: relative;
+  /* border-bottom: 10px solid green; */
+}
+
+.hero h1 {
+  height: inherit;
+  width: 700px;
+  background: inherit;
+}
+
+.menu ol {
+  margin: 0px;
+}
+
+.portfolio {
+  background-color: #e2e0e0;
+}
+
+.portfolio-title {
+  padding-top: 20px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  box-shadow: 5px -5px 5px #1b2127;
+}
+
+.project-details {
+  width: 500px;
+  padding: 10px;
+  background: none;
+}
+
+.project-title {
+  font-size: 25px;
+  margin: 0 0 10px 0;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  color: #767777;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.project strong {
+  color: #000;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.experience-list-title {
+  background: #e2e0e0;
+}
+
+.experience-list {
+  background: #e2e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.experience {
+  width: 45%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #bcf8c9;
+  border-radius: 15px;
+  margin: 10px 20px;
+  box-shadow: 5px 5px 5px #1b2127;
+}
+
+.experience-imageContainer {
+  margin: 0;
+  height: 250px;
+}
+
+.experience-image {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.experience-details {
+  height: 250px;
+  position: relative;
+  margin: 20px 40px;
+  margin-top: -40px;
+  padding: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.experience-title {
+  margin: 10px;
+  font-size: 24px;
+  color: #2a3036;
+}
+
+.experience-description {
+  font-size: 16px;
+  color: #767777;
+  text-align: left;
+  height: 150px;
+}
+
+.experience-url {
+  text-decoration: none;
+  color: #7cfc00;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.contact {
+  background: #108000;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.form-title {
+  color: #fff;
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.form-email {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.form-bottom {
+  color: #fff;
+  width: 160px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  background: inherit;
+}
+
+.network-logo-detail {
+  background: inherit;
+}
+
+.network-logo {
+  background: inherit;
+  padding: 10px;
+}
+
+.footer {
+  color: #fff;
+  background: #1b2127;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer div {
+  background: #1b2127;
+  display: flex;
+  align-items: inherit;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.wrapper {
+  background: inherit;
+  margin: 0 auto;
+  width: 80%;
+  height: inherit;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-shrink: inherit;
+  flex-wrap: inherit;
+}
