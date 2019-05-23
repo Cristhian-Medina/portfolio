@@ -2,57 +2,61 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link href="https://fonts.googleapis.com/css?family=Courgette|Fjalla+One|Source+Sans+Pro:400,600i" rel="stylesheet"> 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
-    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#603cba">
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
 
     <title>Cristhian Medina</title>
   </head>
 
   <body>
-
+<!-- /* ------------------ header ------------------- */ -->
     <header class="header">
       <div class="wrapper">
-        <figure class="logo">
-          <img src="images/android-chrome-256x256.png" width="75" alt="Crocodile">
-          <p><strong>CSMC</strong></p>
-        </figure>
+        <a class="logo-link" href="./index.html">
+          <figure class="logo-container">
+            <img class="logo-img" src="images/icons/logo-150x150.png" width="75" alt="cocodrilo">
+            <p class="logo-text"><strong>CSMC</strong></p>
+          </figure>
+        </a>
         <nav class="menu">
-          <ol>
-            <li>
-              <a class="link" href="#portafolio">Portafolio</a>
+          <ol class="menu-list">
+            <li class="menu-item">
+              <a class="menu-link-url" href="#portafolio">Portafolio</a>
             </li>
-            <li>
-              <a class="link" href="#experiencia">Experiencia</a>
+            <li class="menu-item">
+              <a class="menu-link-url" href="#experiencia">Experiencia</a>
             </li>
-            <li>
-              <a class="link" href="#contacto">Trabajemos juntos</a>
+            <li class="menu-item">
+              <a class="menu-link-url" href="#contacto">Trabajemos juntos</a>
             </li>
           </ol>
         </nav>
       </div>
     </header>
-
-<!--     <section class="hero" id="presentacion" >
+<!-- /* ------------------ modal ------------------- */ -->
+  <div class="modal">
+    <h2 class="modal-title">Hablemos</h2>
+    <p class="modal-text">Invitame un Cáfe</p>
+    <input class="modal-button" type="button" value="accept">
+    <input class="modal-button" type="button" value="calcel">
+  </div>
+<!-- /* ------------------ hero ------------------- */ -->
+    <section class="hero" id="presentacion" >
       <div class="wrapper">
-        <h1>
+        <h1 class="hero-title">
           Hola! Soy <strong>Cristhian Medina</strong> <br/> 
-          Desarrollador <strong>Javascript</strong> con <br/> 
-          pasión por la <strong>educación</strong>.
+          Desarrollador <strong>Frontend y Javascript</strong> con <br/> 
+          pasión por el <strong>diseño</strong>.
         </h1>
         <div class="divider"></div>
-        <img src="images/curso/hero.jpg"/>
+        <img class="hero-img" src="images/hero.jpg"/>
       </div>
     </section>
-
+<!-- /* ------------------ portfolio ------------------- */ -->
     <section class="portfolio" id="portafolio">
       <div class="wrapper">
         <h2 class="portfolio-title">Portafolio (Proyectos Destacados)</h2>
@@ -68,7 +72,7 @@
             </p>
           </div>
           <figure class="project-imageContainer">
-            <img class="project-image" src="images/curso/platzi-video-react-native.png" width="500" alt="imagen del proyecto">
+            <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="imagen del proyecto">
           </figure>
         </article>
 
@@ -84,12 +88,12 @@
             </p>
           </div>
           <figure class="project-imageContainer">
-            <img class="project-image" src="images/curso/platzi-video-react-native.png" width="500" alt="imagen del proyecto">
+            <img class="project-image" src="images/platzi-video-react-native.png" width="500" alt="imagen del proyecto">
           </figure>
         </article>
       </div>
     </section>
-
+<!-- /* ------------------ experience ------------------- */ -->
     <div class="experience-list-title">
       <h2 class="wrapper">Más sobre mi experiencia</h2>
     </div>
@@ -108,13 +112,13 @@
               pertenecer a esta comunidad; con mucho esfuerzo trabaje
               y me suscribí eh inicie mi aventura de aprendizaje.
             </p>
-            <a class="experience-url" href="https://platzi.com/" target="_blank"><strong>PLATZI</strong></a>
+            <a class="experience-url" href="https://platzi.com/@cris-medina/" target="_blank"><strong>PLATZI</strong></a>
           </div>
         </article>
   
         <article class="experience">
           <figure class="experience-imageContainer">
-            <img class="experience-image" src="images/curso/platzi-conf.jpg" width="500" alt="experiencia" />
+            <img class="experience-image" src="images/platzi-conf.jpg" width="500" alt="experiencia" />
           </figure>
           <div class="experience-details">
             <h3 class="experience-title">Desarrollo web online</h3>
@@ -146,7 +150,7 @@
         <article class="experience">
   
           <figure class="experience-imageContainer">
-            <img class="experience-image" src="images/curso/platzi-conf.jpg" width="500" alt="experiencia" />
+            <img class="experience-image" src="images/platzi-conf.jpg" width="500" alt="experiencia" />
           </figure>
   
           <div class="experience-details">
@@ -162,36 +166,34 @@
         </article>
       </div>
     </section>
-
+<!-- /* ------------------ contact ------------------- */ -->
     <section class="contact" id="contacto">
       <div class="wrapper">
         <form class="form-container" action="/suscripcion/">
           <h3 class="form-title">¿Creamos algo juntos?</h3>
-          <label for="email">Déjame tu email</label>
           <input class="form-email" type="text" placeholder="Déjame tu email" id="email">
           <button class="form-bottom">Enviar</button>
-          <input type="submit" value="Enviar">
         </form>
         <div class="network-logo-detail">
-          <a href="https://facebook.com/cris.meca" class="network-logo" target="_blank"><img src="./images/curso/facebook.svg" alt="facebook" height="50"/></a>
-          <a href="https://twitter.com/crismeca19" class="network-logo" target="_blank"><img src="./images/curso/twitter.svg" alt="twitter" height="50"/></a>
-          <a href="https://instagram.com/cris.meca" class="network-logo" target="_blank"><img src="./images/curso/instagram.svg" alt="instagram" height="50"/></a>
-          <a href="https://github.com/Cristhian-Medina" class="network-logo" target="_blank"><img src="./images/curso/github.svg" alt="github" height="50"/></a>
+          <a href="https://facebook.com/cris.meca" class="network-logo-url" target="_blank"><img src="./images/icons/facebook.svg" alt="facebook" height="50"/></a>
+          <a href="https://twitter.com/crismeca19" class="network-logo-url" target="_blank"><img src="./images/icons/twitter.svg" alt="twitter" height="50"/></a>
+          <a href="https://instagram.com/cris.meca" class="network-logo-url" target="_blank"><img src="./images/icons/instagram.svg" alt="instagram" height="50"/></a>
+          <a href="https://github.com/Cristhian-Medina" class="network-logo-url" target="_blank"><img src="./images/icons/github.svg" alt="github" height="50"/></a>
         </div>
       </div>
     </section>
-
+<!-- /* ------------------ footer ------------------- */ -->
     <footer class="footer">
       <div class="wrapper">
-        <div>
+        <div class="footer-container">
           <p>Curso de desarrollo web online 2018 &#9899;</p>
-          <img src="./images/Platzi.png" height='30' alt="Platzi">
+          <img src="./images/icons/Platzi.png" height='30' alt="Platzi">
         </div>
-        <div>
-          <p>Designed with &#128147; by <a href="https://twitter.com/thespianartist" target="_blank">@thespianartist</a></p>
+        <div class="footer-container">
+          <p>Designed with &#128147; by <a href="https://twitter.com/thespianartist" class="designer-url" target="_blank">@thespianartist</a></p>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
   </body>
 </html>
