@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "portafolio personal desarrollado en next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristhian-Medina/portfolio.git"
+  },
+  "keywords": [
+    "next",
+    "js",
+    "react",
+    "portafolio"
+  ],
+  "author": "Cristhian Medina <contact.csmedina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cristhian-Medina/portfolio/issues"
+  },
+  "homepage": "https://github.com/Cristhian-Medina/portfolio#readme",
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
