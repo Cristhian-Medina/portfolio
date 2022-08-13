@@ -1,13 +1,32 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+
+import Card from '@components/Card'
 
 export default function ProjectPage() {
-  return (
+  const [projects, setProjects] = useState([])
+
+  useEffect(() => {
+    window
+      .fetch('api/project')
+      .then(response => response.json())
+      .then(({ data }) => {
+        console.log(data)
+        setProjects(data)
+      })
+      .catch(error => console.error(error.message))
+    }, [])
+    
+    
+  return (                        
     <>
-      <h2>Proyectos</h2>
-      <Card 
-        key='abc123'
-        name='nombre del projecto'
-      ></Card>
+      <h1>Proyectos</h1>
+
+      {projects.map((project) => (
+        <Card
+          key={project.id}
+          item={project}
+        />
+      ))}
     </>
   )
 }

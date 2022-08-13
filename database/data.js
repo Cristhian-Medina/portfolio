@@ -1,17 +1,57 @@
-const projects = [
-  {
-    name: 'Brandbox',
-    description: 'Este proyecto fue realizado como practica para el curso de CSS y HTML en Platzi, Aqui practique mis habilidades de FrontEnd (Maquetacion en HTML, Diseño, Optimizacion del codigo CSS, Animaciones de CSS y Optimizacion de carga en los navegadores.)',
-    link: 'https://cristhian-medina.github.io/BrandBox/',
-    image: './images/brand-pc.jpg'
-  },
-  {
-    name: 'Cartapacio',
-    description: 'Este proyecto fue el resultado de 5 dias de trabajo para llevar a la red la presencia de la empreza Cartapacio',
-    link: 'https://codepen.io/cristhian-medina/full/NWqELjP',
-    image: '.images/codepen-cartapacio.jpg'
-  }
+const ID = [
+  'FuRlnTUv',
+  'CFO2AMav',
+  's1BlrVeT',
+  'NZRaCErT',
+  'VsaHS6UU',
+  'AsLU0E9m',
+  'us4xCklo',
+  'YIE20hR0',
+  '0Ffp94yh',
+  'kpCcLiVY',
+  'z9tgGkr2',
+  'rcUwVpq5',
+  'HEPvX9P8'
 ]
+
+const projects = {
+  'rVUUfPeW': {
+    id: 'rVUUfPeW',
+    name: 'Brandbox',
+    description: 
+      'Este proyecto fue realizado como practica para el curso de CSS y HTML en Platzi, Aqui practique mis habilidades de FrontEnd (Maquetacion en HTML, Diseño, Optimizacion del codigo CSS, Animaciones de CSS y Optimizacion de carga en los navegadores.)',
+    technologies: [
+      'html',
+      'css',
+      'javascript',
+      'optimizacion web'
+    ],
+    link: 'https://cristhian-medina.github.io/BrandBox/',
+    images: {
+      main: './images/brand-pc.jpg',
+      mobile: './images/brand-pc.jpg',
+      desktop: './images/brand-pc.jpg',
+    }
+  },
+  'Jc9DaDyH': {
+    id: 'Jc9DaDyH',
+    name: 'Cartapacio',
+    description: 
+      'Este proyecto fue el resultado de 5 dias de trabajo para llevar a la red la presencia de la empreza Cartapacio',
+    technologies: [
+      'html',
+      'css',
+      'javascript',
+      'optimizacion web'
+    ],
+    link: 'https://codepen.io/cristhian-medina/full/NWqELjP',
+    images: {
+      main: '.images/codepen-cartapacio.jpg',
+      mobile: '.images/codepen-cartapacio.jpg',
+      desktop: '.images/codepen-cartapacio.jpg',
+    }
+  }
+}
 
 const data = {
   '2zd33b8c': {
@@ -142,4 +182,4 @@ const data = {
   }
 }
 
-export default data
+export default projects
