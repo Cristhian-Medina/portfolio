@@ -8,11 +8,6 @@ export default function Footer() {
         <ul className='nav-pages'>
           <li>
             <Link href="/">
-              <a>Cristhian Medina</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
               <a>Home</a>
             </Link>
           </li>
