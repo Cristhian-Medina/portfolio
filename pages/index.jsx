@@ -8,8 +8,8 @@ export default function HomePage() {
         <img src={'/images.png'} width={1110} height={600}/>
         <div>
           <h1>
-            Hola,<br/>
-            Soy Cristhian Medina<br/>
+            Hola 👋, Soy <br/>
+            Cristhian Medina<br/>
             Desarrollador Frontend
           </h1>
           <button>Sobre mí</button>
@@ -19,29 +19,129 @@ export default function HomePage() {
       <main>
         <section className='about-me'>
           <img src='/images.png' width={540} height={600}/>
-          <h2>Sobre mí</h2>
-          <p>
-            Soy un desarrollador frontend con experiencia trabajando con JavaScript y ReactJS, 
-            Utilizo HTML semantico para mejorar la accesibilidad y el SEO, manejo CSS moderno 
-            y algunos de sus preprocesadores como SASS, Less y Stylus. 
-            Me gusta trabajar con la modularización de codigo, ya que me permite reutilizarlo y 
-            mantenerlo de forma eficaz. Debido a que soy metodico, me esfuerzo por escribir 
-            codigo claro y limpio de entender.
-            Actualmente resido en Cúcuta, al nororiente de Colombia, es una ciudad alegre con
-            gente amable pero de temperamento fuerte (Talvez debido al clima calido).
-            Cuando no trabajo, me fascina cocinar junto a mi esposa (realmente soy mas ayudante 
-            que cocinero) y dedicarle tiempo con mis dos hijos.
-            Me encantaria que vieras mi trabajo.
-          </p>
-          <button>Portafolio</button>
+          <div>
+            <h2>Sobre mí</h2>
+            <p>
+              Soy un desarrollador frontend con experiencia trabajando con JavaScript y ReactJS, 
+              Manejo HTML semantico, CSS moderno y el preprocesador SASS. 
+              Me gusta trabajar con la modularización de codigo, ya que me permite reutilizarlo y 
+              mantenerlo de forma eficaz. Debido a que soy metodico, me esfuerzo por escribir 
+              codigo claro y limpio de entender.
+              Actualmente resido en Cúcuta,  es una ciudad alegre con
+              gente amable pero de temperamento fuerte (Talvez debido al clima calido).
+              Cuando no trabajo, me fascina cocinar junto a mi esposa (realmente soy mas ayudante 
+              que cocinero) y dedicarle tiempo con mis dos hijos.
+              Me encantaria que vieras mi trabajo.
+            </p>
+            <button>Portafolio</button>
+          </div>
         </section>
 
         <section className='contact-me'>
-          <h3>¿Estas interesado en que trabajemos juntos?</h3>
-          <div></div>
+          <h2>¿Estas interesado en que trabajemos juntos?</h2>
+          <hr/>
           <button>Contáctame</button>
         </section>
       </main>
+
+      <style jsx>
+        {`
+          header {
+            background-color: var(--color-secondary-light);
+            color: var(--color-text-dark);
+            position: relative;
+            height: 600px;
+            margin-bottom: 112px;
+          }
+
+          header img {
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-primary-alt);
+          }
+
+          header div {
+            position: absolute;
+            bottom: 0;
+            width: 445px;
+            background-color: var(--color-secondary-light);
+            padding: 32px 50px 0 0;
+          }
+
+          header h1 {
+            display: inline-block;
+            font: var(--f-h1);
+            letter-spacing: -0.45px;
+            margin-bottom: 27px;
+          }
+
+          button {
+            height: 48px;
+            width: 152px;
+            text-transform: uppercase;
+            color: var(--color-secondary-light);
+            background-color: var(--color-primary-dark);
+            font-family: var(--ff-text);
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            border: none;
+            padding: 17px 0;
+          }
+
+          .about-me {
+            margin: 0 auto;
+            margin-bottom: 188px;
+            width: 1015px;
+            height: 600px;
+            display: flex;
+            justify-content: space-between;
+          }
+
+          .about-me div {
+            width: 400px;
+            height: 600px;
+            padding: 36px 0 0;
+            border-top: 1px solid var(--color-border-gray);
+            border-bottom: 1px solid var(--color-border-gray);
+          }
+
+          .about-me h2 {
+            font: var(--f-h2);
+            margin-bottom: 28px;
+          }
+
+          .about-me p {
+            font: var(--f-text);
+            margin-bottom: 24px;
+          }
+
+          .contact-me {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 84px;
+            margin-bottom: 150px;
+          }
+
+          .contact-me h2 {
+            width: 450px;
+            font: var(--f-h2);
+            color: var(--color-primary-alt);
+          }
+
+          .contact-me hr {
+            width: 400px;
+            border-top: 1px solid var(--color-border-gray);
+          }
+
+          @media screen and (max-width: 900px) {
+          }
+
+          @media screen and (max-width: 500px) {
+          }
+        `}
+      </style>
     </>
   )
 }
