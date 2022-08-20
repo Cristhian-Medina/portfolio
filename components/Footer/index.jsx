@@ -47,10 +47,6 @@ export default function Footer() {
       <style jsx>
         {`
           footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
             font-size: 1.2rem;
             background-color: var(--color-primary-alt);
             color: var(--color-secondary-light);
