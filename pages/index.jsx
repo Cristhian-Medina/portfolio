@@ -1,6 +1,8 @@
 import React from 'react'
 // import Image from 'next/image'
 
+import Button from '@components/Button'
+
 export default function HomePage() {
   return (
     <>
@@ -12,13 +14,12 @@ export default function HomePage() {
             Cristhian Medina<br/>
             Desarrollador Frontend
           </h1>
-          <button>Sobre mí</button>
         </div>
       </header>
 
-      <main>
-        <section className='about-me'>
-          <img src='/images.png' width={540} height={600}/>
+      <main id="about">
+        <section className="about-me">
+          <img src="/images.png" width={540} height={600}/>
           <div>
             <h2>Sobre mí</h2>
             <p>
@@ -33,14 +34,24 @@ export default function HomePage() {
               que cocinero) y dedicarle tiempo con mis dos hijos.
               Me encantaria que vieras mi trabajo.
             </p>
-            <button>Portafolio</button>
+            <Button
+              className="primary"
+              type="link"
+              value="Portafolio"
+              href="/project"
+            />
           </div>
         </section>
 
-        <section className='contact-me'>
+        <section className="contact-me">
           <h2>¿Estas interesado en que trabajemos juntos?</h2>
           <hr/>
-          <button>Contáctame</button>
+          <Button
+            className="primary"
+            type="link"
+            value="Contáctame"
+            href="/contact"
+          />
         </section>
       </main>
 
@@ -73,19 +84,6 @@ export default function HomePage() {
             font: var(--f-h1);
             letter-spacing: -0.45px;
             margin-bottom: 27px;
-          }
-
-          button {
-            height: 48px;
-            width: 152px;
-            text-transform: uppercase;
-            color: var(--color-secondary-light);
-            background-color: var(--color-primary-dark);
-            font-family: var(--ff-text);
-            font-size: 1.2rem;
-            letter-spacing: 2px;
-            border: none;
-            padding: 17px 0;
           }
 
           .about-me {
