@@ -8,6 +8,7 @@
   --f-small: 400 1.5rem/3rem var(--ff-text);
   --f-input-title: 700 1.3rem/3rem var(--ff-text);
   --f-input-body: 400 1.3rem/3rem var(--ff-text);
+  --f-button: 400 1.2rem/1.6rem var(--ff-text);
   --color-primary-light: #2bc016;
   --color-primary-dark: #0a5635;
   --color-primary-alt: #006e90;
