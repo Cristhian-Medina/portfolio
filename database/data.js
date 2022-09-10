@@ -1,12 +1,4 @@
 const ID = [
-  'FuRlnTUv',
-  'CFO2AMav',
-  's1BlrVeT',
-  'NZRaCErT',
-  'VsaHS6UU',
-  'AsLU0E9m',
-  'us4xCklo',
-  'YIE20hR0',
   '0Ffp94yh',
   'kpCcLiVY',
   'z9tgGkr2',
@@ -18,37 +10,221 @@ const projects = {
   'rVUUfPeW': {
     id: 'rVUUfPeW',
     name: 'Brandbox',
-    description: 
-      'Este proyecto fue realizado como practica para el curso de CSS y HTML en Platzi, Aqui practique mis habilidades de FrontEnd (Maquetacion en HTML, Diseño, Optimizacion del codigo CSS, Animaciones de CSS y Optimizacion de carga en los navegadores.)',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo. Este proyecto fue realizado como practica para el curso de CSS y HTML en Platzi, Aqui practique mis habilidades de FrontEnd (Maquetacion en HTML, Diseño, Optimizacion del codigo CSS, Animaciones de CSS y Optimizacion de carga en los navegadores.)'
+    ],
     technologies: [
       'html',
       'css',
+      'animaciones en css',
       'javascript',
+      'paypal',
       'optimizacion web'
     ],
-    link: 'https://cristhian-medina.github.io/BrandBox/',
+    site: 'https://cristhian-medina.github.io/BrandBox/',
+    github: 'https://github.com/Cristhian-Medina/BrandBox',
     images: {
-      main: './images/brand-pc.jpg',
-      mobile: './images/brand-pc.jpg',
-      desktop: './images/brand-pc.jpg',
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
     }
   },
   'Jc9DaDyH': {
     id: 'Jc9DaDyH',
     name: 'Cartapacio',
-    description: 
-      'Este proyecto fue el resultado de 5 dias de trabajo para llevar a la red la presencia de la empreza Cartapacio',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
     technologies: [
       'html',
       'css',
       'javascript',
       'optimizacion web'
     ],
-    link: 'https://codepen.io/cristhian-medina/full/NWqELjP',
+    site: 'https://codepen.io/cristhian-medina/full/NWqELjP',
+    github: ' ',
     images: {
-      main: '.images/codepen-cartapacio.jpg',
-      mobile: '.images/codepen-cartapacio.jpg',
-      desktop: '.images/codepen-cartapacio.jpg',
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'FuRlnTUv': {
+    id: 'FuRlnTUv',
+    name: 'PlatziGames',
+    description: [
+      'En este sitio web puedes obtener las noticias mas relevantes en el area de los videojuegos, noticias sobre consolas, juegos, nuevos lanzamientos y actualizaciones.', 
+      'Este proyecto se desarrollo siguiendo la guia de estilos y el diseño establecido en el curso de preprocesadores en Platzi, se utilizo la modularización de Pug para crear los diferentes componentes y reutilizarlos en las respectivas vistas del sitio web, y Sass permitio utilizar variables y mixins para facilitar la consistencia en los estilos de los componentes y las vistas.'
+    ],
+    technologies: [
+      'pug',
+      'sass',
+      'reponsive design',
+      'optimizacion web'
+    ],
+    site: 'https://cristhian-medina.github.io/PlatziGames/',
+    github: 'https://github.com/Cristhian-Medina/PlatziGames',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'CFO2AMav': {
+    id: 'CFO2AMav',
+    name: 'Jamestown English Center',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'css3',
+      'html5',
+      'reponsive design',
+      'optimizacion web'
+    ],
+    site: 'https://jamestown.edu.co/',
+    github: 'https://github.com/Cristhian-Medina/Jamestown-landing',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  's1BlrVeT': {
+    id: 's1BlrVeT',
+    name: 'Technews',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'css3',
+      'html5',
+      'reponsive design',
+      'diseño web',
+      'figma'
+    ],
+    site: 'https://tech-news-landing-page.netlify.app/',
+    github: 'https://github.com/Cristhian-Medina/Technews',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'NZRaCErT': {
+    id: 'NZRaCErT',
+    name: 'Invie',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'css3',
+      'html5',
+      'reponsive design',
+      'diseño web',
+      'optimización web',
+      'figma'
+    ],
+    site: 'https://cristhian-medina.github.io/invie/',
+    github: 'https://github.com/Cristhian-Medina/invie',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'VsaHS6UU': {
+    id: 'VsaHS6UU',
+    name: 'LM Store',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'Sass',
+      'animaciones',
+      'pug',
+      'reponsive design',
+      'diseño web',
+      'optimización web',
+      'figma'
+    ],
+    site: 'https://cristhian-medina.github.io/LM/',
+    github: 'https://github.com/Cristhian-Medina/LM',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'AsLU0E9m': {
+    id: 'AsLU0E9m',
+    name: 'PlatziVideo',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'Sass',
+      'animaciones',
+      'pug',
+      'reponsive design',
+      'diseño web',
+      'optimización web',
+      'figma'
+    ],
+    site: 'https://cristhian-medina.github.io/PlatziVideo/',
+    github: 'https://github.com/Cristhian-Medina/PlatziVideo',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'us4xCklo': {
+    id: 'us4xCklo',
+    name: 'Medellin CSS',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'css',
+      'css grid',
+      'html',
+      'reponsive design',
+    ],
+    site: 'https://cristhian-medina.github.io/SASS_Workshop_Medellin/',
+    github: 'https://github.com/Cristhian-Medina/SASS_Workshop_Medellin',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
+    }
+  },
+  'YIE20hR0': {
+    id: 'YIE20hR0',
+    name: 'PlatziMovie',
+    description: [
+      'Descripcion del sitio', 
+      'Descripcion de que se hizo, como se hizo y porque se hizo.'
+    ],
+    technologies: [
+      'css',
+      'html',
+      'reponsive design',
+    ],
+    site: 'https://cristhian-medina.github.io/PlatziMovie/',
+    github: 'https://github.com/Cristhian-Medina/PlatziMovie',
+    images: {
+      main: undefined,
+      mobile: undefined,
+      desktop: undefined,
     }
   }
 }
