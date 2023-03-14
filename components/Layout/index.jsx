@@ -10,6 +10,25 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <Footer />
+
+      <style jsx>
+        {`
+          .layout-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 1110px;
+            margin: 0 auto;
+            min-height: 90vh;
+          }
+
+          @media screen and (max-width: 900px) {
+          }
+
+          @media screen and (max-width: 500px) {
+          }
+        `}
+      </style>
     </>
   )
 }
