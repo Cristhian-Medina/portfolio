@@ -4,6 +4,7 @@
     "paths": {
       "@components/*": ["components/*"],
       "@database": ["database/db.js"],
+      "@images/*": ["public/images/*"],
       "@styles/*": ["styles/*"]
     }
   }

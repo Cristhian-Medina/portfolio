@@ -24,7 +24,15 @@ ol, ul {
   list-style: none;
 }
 
-.layout-container {
-  max-width: 1110px;
-  margin: 0 auto;
+.green {
+  background-color: var(--color-primary-light);
+}
+.blue {
+  background-color: var(--color-primary-alt);
+}
+.gray {
+  background-color: var(--color-border-gray);
+}
+.olive {
+  background-color: var(--color-primary-dark);
 }
