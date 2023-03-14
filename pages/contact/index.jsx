@@ -18,9 +18,9 @@ export default function ContactPage() {
             formulario.
           </p>
           <ul className='social'>
-            <li><a href='https://github.com/Cristhian-Medina'>Github</a></li>
-            <li><a href='https://twitter.com/crismeca19'>Twitter</a></li>
-            <li><a href='https://www.linkedin.com/in/cristhian-medina-c/'>LinkedIn</a></li>
+            <li><a href='https://github.com/Cristhian-Medina' target='_blank'>Github</a></li>
+            <li><a href='https://twitter.com/crismeca19' target='_blank'>Twitter</a></li>
+            <li><a href='https://www.linkedin.com/in/cristhian-medina-c/' target='_blank'>LinkedIn</a></li>
           </ul>
         </div>
       </section>

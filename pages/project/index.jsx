@@ -22,7 +22,8 @@ export default function ProjectPage() {
       <Card
         key={project.id}
         project={project}
-        position={(index % 2 == 0) ? 'right' : 'left'}
+        position={(index % 2 !== 0) ? 'right' : ''}
+        color={Math.floor(Math.random() * 4)}
       />
     ))
   )

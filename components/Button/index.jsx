@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Button = ({className, type, value, href, disabled}) => {
+const Button = ({className, type, value, href, disabled, target}) => {
   if(type === 'link') {
     return (
       <>
         <Link href={href}>
-          <a className={className}>{value}</a>
+          <a className={className} target={target}>{value}</a>
         </Link>
 
         <style jsx>

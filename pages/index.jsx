@@ -1,13 +1,15 @@
 import React from 'react'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 import Button from '@components/Button'
+import banner from '@images/banner.jpg'
+import user from '@images/user.jpg'
 
 export default function HomePage() {
   return (
     <>
       <header>
-        <img src={'/images.png'} width={1110} height={600}/>
+        <Image src={banner} width={1110} height={600}/>
         <div>
           <h1>
             Hola 👋, Soy <br/>
@@ -19,7 +21,7 @@ export default function HomePage() {
 
       <main id="about">
         <section className="about-me">
-          <img src="/images.png" width={540} height={600}/>
+          <Image src={user} width={540} height={600}/>
           <div>
             <h2>Sobre mí</h2>
             <p>
