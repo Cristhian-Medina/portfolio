@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@database": ["database/db.js"],
+      "@styles/*": ["styles/*"]
+    }
+  }
+}

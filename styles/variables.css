@@ -1,0 +1,20 @@
+:root {
+  --ff-title: 'Lexend', sans-serif;
+  --ff-text: 'DM Sans', sans-serif;
+  --f-h1: 700 4rem/5rem var(--ff-title);
+  --f-h2: 700 3.6rem/4.2rem var(--ff-title);
+  --f-h3: 600 3.2rem/3.6rem var(--ff-title);
+  --f-text: 400 1.6rem/3rem var(--ff-text);
+  --f-small: 400 1.5rem/3rem var(--ff-text);
+  --f-input-title: 700 1.3rem/3rem var(--ff-text);
+  --f-input-body: 400 1.3rem/3rem var(--ff-text);
+  --f-button: 400 1.2rem/1.6rem var(--ff-text);
+  --color-primary-light: #2bc016;
+  --color-primary-dark: #0a5635;
+  --color-primary-alt: #006e90;
+  --color-secondary-light: #fafafa;
+  --color-secondary-gray: #e4e3e3;
+  --color-secondary-error: #f43030;
+  --color-text-dark: #33323d;
+  --color-border-gray: #979797;
+}
